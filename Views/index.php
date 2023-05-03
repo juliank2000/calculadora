@@ -37,7 +37,7 @@ $delet = $data;
                     <tbody>
                         <?php
                         if ($registros) {
-
+                            
                             foreach ($registros as $row) {
                         ?>
                                 <tr class="text-center">

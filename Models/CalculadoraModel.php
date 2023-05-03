@@ -29,7 +29,6 @@ class CalculadoraModel extends stdClass
             $sql = "SELECT * FROM operaciones WHERE id = $id";
             $query  = $this->db->conect()->query($sql);
 
-
             while ($row = $query->fetch()) {
                 $item            = new CalculadoraModel();
                 $item->id        = $row['id'];
